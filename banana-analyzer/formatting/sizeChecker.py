@@ -2,8 +2,9 @@ import os
 import cv2
 
 """
-
+Checks images in all folder for minimum size (width) and (height)
 """
+
 def belowMinSize(width, height):
     pathToImages = "../../images"
     imageFolders = os.listdir("../../images")
