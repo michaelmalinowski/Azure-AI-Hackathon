@@ -1,2 +1,3 @@
-from . import sizeChecker
-sizeChecker.belowMinSize(300,300)
+from . import duplicateChecker
+
+duplicateChecker.checkForDups()
