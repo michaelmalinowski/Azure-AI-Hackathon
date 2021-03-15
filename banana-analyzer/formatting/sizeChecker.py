@@ -6,8 +6,8 @@ Checks images in all folder for minimum size (width) and (height)
 """
 
 def belowMinSize(width, height):
-    pathToImages = "../../images"
-    imageFolders = os.listdir("../../images")
+    pathToImages = "../images"
+    imageFolders = os.listdir("../images")
     count = 0
 
     for folder in imageFolders:
